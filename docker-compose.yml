@@ -14,6 +14,11 @@ services:
       - data:/var/data
     environment:
       VERSION: "11"
+      RAM_SIZE: "8G"
+      CPU_CORES: "4"
+      LANGUAGE: "English"
+      REGION: "en-US"
+      KEYBOARD: "en-US"
     devices:
       - /dev/kvm
     stop_grace_period: 2m
