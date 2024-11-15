@@ -20,8 +20,10 @@ services:
 
 networks:
   default:
+    name: docker_windows_network
     driver: bridge
 
 volumes:
   data:
+    name: docker_windows_data
     driver: local
